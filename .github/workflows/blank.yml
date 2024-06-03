@@ -21,7 +21,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt -y install python python3 python-pip python3-pip cpio wget
-        pip3 install twrpdtgen
+        python pip install twrpdtgen
         mkdir dt
       
     - name: Download boot or recovery img
